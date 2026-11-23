@@ -20,9 +20,11 @@ Extract the release ZIP and install the OTF files for your chosen typeface. Inst
 | Seiji Gothic | 青磁ゴシック |
 | Seiji Maru Gothic | 青磁丸ゴシック |
 
-### Safari on macOS
+### Web browsers
 
-Open **Settings → Advanced → Style sheet → Other**, select one CSS file from the release ZIP’s `Safari` folder, and reload the page. This applies Seiji to page content marked as Japanese, including body text, headings, and ruby annotations. [Style sheet options and scope (Japanese)](docs/safari.md)
+Chrome and Firefox let you select an installed font as the browser default. This applies where the page relies on browser defaults. Site-specific font choices may still apply. [Chrome settings](https://support.google.com/chrome/answer/96810?hl=en) · [Firefox settings](https://support.mozilla.org/en-US/kb/change-fonts-and-colors-websites-use)
+
+Safari on macOS offers a user style sheet setting under Advanced. Its settings do not include a default font picker. The Seiji release ZIP includes CSS for Japanese page content. The guide explains how to apply it and when site fonts can still appear. [Safari setup and scope (Japanese)](docs/safari.md)
 
 ## Character coverage
 
@@ -32,7 +34,9 @@ The 0.300 preview includes 1,026 educational kanji and 400 additional jōyō kan
 
 辯, 辨, and 瓣 are distinct kanji that share the form 弁 in modern Japanese. When the OpenType `calt` feature is enabled, 弁論, 弁別, and 花弁 appear as 辯論, 辨別, and 花瓣, respectively.
 
-On its own, 弁 normally appears as 辯. To display the form 弁 itself in an app that supports ideographic variation sequences (IVS), enter `弁󠄀` (弁 followed by U+E0100). Version 0.300 provides this option for the 13 sequences in the reference table. [Contextual rules and IVS reference (Japanese)](docs/contextual-forms.md)
+If a line break separates the characters needed by a rule, some apps may skip that rule. As a result, even automatic wrapping due to changes in window width or text size can affect the displayed form.
+
+To display 灯 in the sense of “lamplight,” or 余 or 予 as first-person pronouns, enter `灯󠄀`, `余󠄀`, or `予󠄀` in an app that supports ideographic variation sequences (IVS). In each sequence, U+E0100 follows the kanji. Seiji 0.300 provides this option for the 13 sequences listed in the reference table. [Contextual rules and IVS reference (Japanese)](docs/contextual-forms.md)
 
 ## Technical documentation
 
