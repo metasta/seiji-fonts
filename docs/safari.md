@@ -1,10 +1,10 @@
 # macOS版Safariでの設定と適用範囲
 
-青磁 0.200のSafari用CSSには、書体ごとにRegularとBoldのフォントが含まれます。Safariでは、CSSを指定すると対象のWebページを青磁で表示できます。
+青磁 0.300のSafari用CSSには、書体ごとにRegularとBoldのフォントが含まれます。Safariでは、CSSを指定すると対象のWebページを青磁で表示できます。
 
 ## CSSを指定する
 
-1. [青磁 0.200の配布ZIP](https://github.com/metasta/seiji-fonts/releases/tag/v0.200) を展開します。
+1. [青磁 0.300の配布ZIP](https://github.com/metasta/seiji-fonts/releases/tag/v0.300) を展開します。
 2. Safariの「設定 → 詳細 → スタイルシート → その他」で、ZIPの `Safari` フォルダにあるCSSを一つ選びます。
 3. 表示するページを再読み込みします。元の表示に戻す場合は、「スタイルシート」を元の設定に戻します。 [Safariの詳細設定](https://support.apple.com/en-ie/guide/safari/ibrw1075/mac)
 

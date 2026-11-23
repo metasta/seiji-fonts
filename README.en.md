@@ -26,13 +26,13 @@ Open **Settings → Advanced → Style sheet → Other**, select one CSS file fr
 
 ## Character coverage
 
-The 0.200 preview includes 1,026 educational kanji and 200 additional jōyō kanji, for a total of 1,226 across all six fonts. The release ZIP includes the complete list in `収録漢字.txt`.
+The 0.300 preview includes 1,026 educational kanji and 400 additional jōyō kanji, for a total of 1,426 across all six fonts. The release ZIP includes the complete list in `収録漢字.txt`.
 
 ## Contextual forms and literal glyphs
 
 辯, 辨, and 瓣 are distinct kanji that share the form 弁 in modern Japanese. When the OpenType `calt` feature is enabled, 弁論, 弁別, and 花弁 appear as 辯論, 辨別, and 花瓣, respectively.
 
-On its own, 弁 normally appears as 辯. To display the form 弁 itself in an app that supports ideographic variation sequences (IVS), enter `弁󠄀` (弁 followed by U+E0100). Version 0.200 provides this option for the 13 sequences in the reference table. [Contextual rules and IVS reference (Japanese)](docs/contextual-forms.md)
+On its own, 弁 normally appears as 辯. To display the form 弁 itself in an app that supports ideographic variation sequences (IVS), enter `弁󠄀` (弁 followed by U+E0100). Version 0.300 provides this option for the 13 sequences in the reference table. [Contextual rules and IVS reference (Japanese)](docs/contextual-forms.md)
 
 ## Technical documentation
 

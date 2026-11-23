@@ -10,7 +10,7 @@
 
 ## 書体ごとの素材
 
-素材ごとの配布元、著作権表示、SHA-256は、配布ZIPの `素材の出典.json` で確認できます。 [青磁 0.200の配布ZIP](https://github.com/metasta/seiji-fonts/releases/tag/v0.200)
+素材ごとの配布元、著作権表示、SHA-256は、配布ZIPの `素材の出典.json` で確認できます。 [青磁 0.300の配布ZIP](https://github.com/metasta/seiji-fonts/releases/tag/v0.300)
 
 | 素材 | 青磁での役割 |
 | --- | --- |
