@@ -6,6 +6,10 @@ Seiji is a family of Japanese typefaces for setting text in traditional kanji fo
 
 [Download the fonts](https://github.com/metasta/seiji-fonts/releases)
 
+![The sentence 「北国の夏の夜明けは静かである。」 in all six Seiji fonts](seiji-specimen.png)
+
+[Nakaya Ukichirō, Hachigatsu mikka no yume](https://www.aozora.gr.jp/cards/001569/files/59201_68743.html)
+
 ## Installation
 
 ### Word and other apps

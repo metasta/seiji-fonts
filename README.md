@@ -6,6 +6,10 @@
 
 [フォントをダウンロード](https://github.com/metasta/seiji-fonts/releases)
 
+![「北国の夏の夜明けは静かである。」を青磁の6書体で組んだ見本](seiji-specimen.png)
+
+[中谷宇吉郎『八月三日の夢』](https://www.aozora.gr.jp/cards/001569/files/59201_68743.html)
+
 ## 利用方法
 
 ### Wordなどのアプリ
