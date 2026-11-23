@@ -2,7 +2,7 @@
 
 [日本語](README.md)
 
-Seiji is a set of Japanese typefaces whose kanji forms follow the selection criteria of I.Ming Seiji. Seiji Mincho, Seiji Gothic, and Seiji Maru Gothic each come in Regular and Bold.
+Seiji is a family of Japanese typefaces for setting text in traditional kanji forms. Seiji Mincho, Seiji Gothic, and Seiji Maru Gothic each come in Regular and Bold.
 
 [Download the fonts](https://github.com/metasta/seiji-fonts/releases)
 
@@ -23,6 +23,10 @@ Extract the release ZIP and install the OTF files for your chosen typeface. Inst
 Chrome and Firefox let you select an installed font as the browser default. This applies where the page relies on browser defaults. Site-specific font choices may still apply. [Chrome settings](https://support.google.com/chrome/answer/96810?hl=en) · [Firefox settings](https://support.mozilla.org/en-US/kb/change-fonts-and-colors-websites-use)
 
 Safari on macOS offers a user style sheet setting under Advanced. Its settings do not include a default font picker. The Seiji release ZIP includes CSS for Japanese page content. The guide explains how to apply it and when site fonts can still appear. [Safari setup and scope (Japanese)](docs/safari.md)
+
+## Kanji selection
+
+Kanji forms follow the criteria of I.Ming Seiji v1.1, which consider character origins and Japanese usage. The glyphs for the Mincho, Gothic, and Maru Gothic designs are selected from their respective source fonts. [I.Ming Seiji selection criteria](https://github.com/epistularum/kanji-restoration#正字-criteria) · [Kanji selection and adjustments (Japanese)](docs/glyph-selection.md)
 
 ## Character coverage
 

@@ -2,7 +2,7 @@
 
 [English](README.en.md)
 
-青磁（せいじ）は、一点明朝正字を基準に漢字の字形を選んだ日本語書体です。青磁明朝・青磁ゴシック・青磁丸ゴシックに、それぞれRegularとBoldがあります。
+青磁（せいじ）は、日本語を正字で組むための書体です。青磁明朝・青磁ゴシック・青磁丸ゴシックに、それぞれRegularとBoldがあります。
 
 [フォントをダウンロード](https://github.com/metasta/seiji-fonts/releases)
 
@@ -23,6 +23,10 @@
 ChromeやFirefoxでは、インストールしたフォントを既定フォントに指定できます。この設定は、ブラウザの既定フォントに任せた箇所に適用されます。サイトが独自にフォントを指定した箇所は、そのフォントで表示される場合があります。 [Chromeの設定](https://support.google.com/chrome/answer/96810?hl=ja)・[Firefoxの設定](https://support.mozilla.org/ja/kb/change-fonts-and-colors-websites-use)
 
 macOS版Safariの設定には、既定フォントを選ぶ項目がありません。「詳細」からユーザースタイルシート（CSS）を指定できます。青磁の配布ZIPには、対象の日本語ページを青磁で表示するためのCSSが含まれます。設定手順と適用範囲は、Safari向けの案内を参照してください。 [Safariでの設定と適用範囲](docs/safari.md)
+
+## 字形の基準
+
+漢字の字形選定には、字の成り立ちと日本語での用法を確かめる一点明朝正字 v1.1 の基準を採用しました。その基準に沿って、明朝・ゴシック・丸ゴシックそれぞれの素材から字形を選びました。 [一点明朝正字の字形選定基準](https://github.com/epistularum/kanji-restoration#正字-criteria)・[青磁の字形の選定と調整](docs/glyph-selection.md)
 
 ## 収録範囲
 
