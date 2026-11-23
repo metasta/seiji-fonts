@@ -6,8 +6,6 @@ Seiji is a set of Japanese typefaces whose kanji forms follow the selection crit
 
 [Download the fonts](https://github.com/metasta/seiji-fonts/releases)
 
-![Horizontal specimen comparing Regular and Bold in Seiji Mincho, Seiji Gothic, and Seiji Maru Gothic. The sample describes waiting for a friend at a station at dusk, with 駅 shown in the form 驛.](seiji-specimen.png)
-
 ## Installation
 
 ### Word and other apps
@@ -36,7 +34,7 @@ The 0.300 preview includes 1,026 educational kanji and 400 additional jōyō kan
 
 If a line break separates the characters needed by a rule, some apps may skip that rule. As a result, even automatic wrapping due to changes in window width or text size can affect the displayed form.
 
-To display 灯 in the sense of “lamplight,” or 余 or 予 as first-person pronouns, enter `灯󠄀`, `余󠄀`, or `予󠄀` in an app that supports ideographic variation sequences (IVS). In each sequence, U+E0100 follows the kanji. Seiji 0.300 provides this option for the 13 sequences listed in the reference table. [Contextual rules and IVS reference (Japanese)](docs/contextual-forms.md)
+To retain the forms 余 and 予 when used as first-person pronouns, enter `余󠄀` or `予󠄀` in an app that supports ideographic variation sequences (IVS). In each sequence, U+E0100 follows the kanji. Seiji 0.300 provides this option for the 13 sequences listed in the reference table. [Contextual rules and IVS reference (Japanese)](docs/contextual-forms.md)
 
 ## Technical documentation
 
