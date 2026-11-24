@@ -12,15 +12,13 @@ Seiji is a family of Japanese typefaces for setting text in traditional kanji fo
 
 ## Installation
 
-Extract the release ZIP and install the OTF files for the typeface and weight you want. Install both OTF files if you use both Regular and Bold. Choose the family from your app’s font menu.
+Extract the release ZIP and install the OTF files for the typeface and weight you want. Install both OTF files if you use both Regular and Bold. The following table lists the family and PostScript names.
 
-| English family name | Japanese family name | PostScript name (Regular) | PostScript name (Bold) |
-| --- | --- | --- | --- |
-| Seiji Mincho | 青磁明朝 | `SeijiMincho-Regular` | `SeijiMincho-Bold` |
-| Seiji Gothic | 青磁ゴシック | `SeijiGothic-Regular` | `SeijiGothic-Bold` |
-| Seiji Maru Gothic | 青磁丸ゴシック | `SeijiMaruGothic-Regular` | `SeijiMaruGothic-Bold` |
-
-### Web browsers
+| English family name | Japanese family name | PostScript name |
+| --- | --- | --- |
+| Seiji Mincho | 青磁明朝 | `SeijiMincho-Regular`<br>`SeijiMincho-Bold` |
+| Seiji Gothic | 青磁ゴシック | `SeijiGothic-Regular`<br>`SeijiGothic-Bold` |
+| Seiji Maru Gothic | 青磁丸ゴシック | `SeijiMaruGothic-Regular`<br>`SeijiMaruGothic-Bold` |
 
 Set Seiji as your browser’s default font to use it wherever a site relies on that default. In browsers without a default font picker, such as Safari on macOS, a user style sheet may let you apply the font.
 
@@ -28,11 +26,15 @@ The Seiji release ZIP includes CSS for Japanese page content. The guide explains
 
 [Chrome settings](https://support.google.com/chrome/answer/96810?hl=en) · [Firefox settings](https://support.mozilla.org/en-US/kb/change-fonts-and-colors-websites-use) · [Safari settings](https://support.apple.com/en-ie/guide/safari/ibrw1075/mac) · [WebKit’s tracking prevention](https://webkit.org/tracking-prevention/)
 
-## Kanji coverage and glyph selection
+## Character coverage
 
 The 0.300 preview includes 1,026 educational kanji and 400 additional jōyō kanji, for a total of 1,426 across all six fonts. The release ZIP includes the complete list in `収録漢字.txt`.
 
-Kanji forms follow the criteria of I.Ming Seiji v1.1, which consider character origins and Japanese usage. The glyphs for the Mincho, Gothic, and Maru Gothic designs are selected from their respective source fonts. [I.Ming Seiji selection criteria](https://github.com/epistularum/kanji-restoration#正字-criteria) · [Kanji selection and adjustments (Japanese)](docs/glyph-selection.md)
+## Glyph selection
+
+The form considered standard for a kanji can vary by typeface. Seiji’s Mincho, Gothic, and Maru Gothic designs are intended for use together in the same document, so all three follow I.Ming Seiji’s glyph selection criteria. [I.Ming Seiji selection criteria](https://github.com/epistularum/kanji-restoration#正字-criteria)
+
+[Kanji selection and adjustments (Japanese)](docs/glyph-selection.md)
 
 ## Distinguishing kanji that share a modern form
 
