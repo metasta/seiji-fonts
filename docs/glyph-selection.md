@@ -6,7 +6,7 @@
 
 一点明朝正字が参照する『傳承字形部件檢校表』では、構成する部分が混同されない範囲の接触や分離は正字基準に影響せず、書体設計上の差に含まれます。青磁でも、書体によって部品間の接触/分離に差がある字については、基本的に各素材の字形をそのまま採用しました。ただし、接触/分離の差により筆画の構成が把握しにくくなる一部の字については、他の部品との混同はなくても筆画構成を明確にする調整を施しました。青磁 0.200における「走」や「起」での「土」・「龰」の分離はその一例です。
 
-このため青磁差であり、に含めます。 [『傳承字形部件檢校表』1.37（本文111〜113頁）](https://github.com/ichitenfont/inheritedglyphs/blob/master/component_of_recom_inherited_glyphs-1.37.pdf)
+[『傳承字形部件檢校表』1.37（本文111〜113頁）](https://github.com/ichitenfont/inheritedglyphs/blob/master/component_of_recom_inherited_glyphs-1.37.pdf)
 
 ## 書体ごとの素材
 
