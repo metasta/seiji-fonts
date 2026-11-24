@@ -12,15 +12,13 @@
 
 ## 利用方法
 
-配布ZIPを展開し、利用する書体とウェイトのOTFをインストールします。RegularとBoldを併用する場合は、両方のOTFをインストールします。アプリのフォントメニューで、表のファミリー名を選びます。
+配布ZIPを展開し、利用する書体とウェイトのOTFをインストールします。RegularとBoldを併用する場合は、両方のOTFをインストールします。フォントのファミリー名、PostScript名は次表の通りです。
 
-| ファミリー名（日本語） | ファミリー名（英語） | PostScript名（Regular） | PostScript名（Bold） |
-| --- | --- | --- | --- |
-| 青磁明朝 | Seiji Mincho | `SeijiMincho-Regular` | `SeijiMincho-Bold` |
-| 青磁ゴシック | Seiji Gothic | `SeijiGothic-Regular` | `SeijiGothic-Bold` |
-| 青磁丸ゴシック | Seiji Maru Gothic | `SeijiMaruGothic-Regular` | `SeijiMaruGothic-Bold` |
-
-### Webブラウザ
+| ファミリー名（日本語） | ファミリー名（英語） | PostScript名 |
+| --- | --- | ---|
+| 青磁明朝 | Seiji Mincho | `SeijiMincho-Regular`<br>`SeijiMincho-Bold` |
+| 青磁ゴシック | Seiji Gothic | `SeijiGothic-Regular`<br>`SeijiGothic-Bold` |
+| 青磁丸ゴシック | Seiji Maru Gothic | `SeijiMaruGothic-Regular`<br>`SeijiMaruGothic-Bold` |
 
 Webブラウザの既定フォントに青磁を指定すると、サイト側が既定フォントに任せた箇所を青磁で表示できます。macOS版Safariなど既定フォントを選ぶ設定がない一部のブラウザでは、ユーザースタイルシートを指定することで表示できる場合があります。
 
@@ -28,11 +26,15 @@ Webブラウザの既定フォントに青磁を指定すると、サイト側�
 
 [Chromeの設定](https://support.google.com/chrome/answer/96810?hl=ja)・[Firefoxの設定](https://support.mozilla.org/ja/kb/change-fonts-and-colors-websites-use)・[Safariの詳細設定](https://support.apple.com/en-ie/guide/safari/ibrw1075/mac)・[WebKitのプライバシー保護](https://webkit.org/tracking-prevention/)
 
-## 収録範囲と字形の基準
+## 収録範囲
 
 増補先行版 0.300は、教育漢字1,026字と、教育漢字以外の常用漢字400字を収録します。6本のフォントに共通する計1,426字です。個々の漢字は、配布ZIPの `収録漢字.txt` で確認できます。
 
-漢字の字形選定には、字の成り立ちと日本語での用法を確かめる一点明朝正字 v1.1 の基準を採用しました。その基準に沿って、明朝・ゴシック・丸ゴシックそれぞれの素材から字形を選びました。 [一点明朝正字の字形選定基準](https://github.com/epistularum/kanji-restoration#正字-criteria)・[青磁の字形の選定と調整](docs/glyph-selection.md)
+## 字形の基準
+
+正字とする字形は、書体によって異なることがあります。青磁では、明朝・ゴシック・丸ゴシックを同じ文書で併用することを想定し、3書体とも[一点明朝正字の字形選定基準](https://github.com/epistularum/kanji-restoration#正字-criteria) に沿って漢字の字形を選びます。
+
+[青磁の字形の選定と調整](docs/glyph-selection.md)
 
 ## 複数の正字を持つ漢字への対応
 
