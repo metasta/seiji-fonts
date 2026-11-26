@@ -6,7 +6,7 @@ macOS版Safariの設定には、既定フォントを選ぶ項目がありませ
 
 ## CSSを指定する
 
-1. [青磁 0.300の配布ZIP](https://github.com/metasta/seiji-fonts/releases/tag/v0.300) を展開します。
+1. [青磁 0.400の配布ZIP](https://github.com/metasta/seiji-fonts/releases/tag/v0.400) を展開します。
 2. Safariの「設定 → 詳細 → スタイルシート → その他」で、ZIPの `Safari` フォルダにあるCSSを一つ選びます。
 3. 表示するページを再読み込みします。元の表示に戻す場合は、「スタイルシート」を元の設定に戻します。
 

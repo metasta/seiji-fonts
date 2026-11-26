@@ -28,7 +28,7 @@ The Seiji release ZIP includes CSS for Japanese page content. The guide explains
 
 ## Character coverage
 
-The 0.300 preview includes 1,026 educational kanji and 400 additional jōyō kanji, for a total of 1,426 across all six fonts. The release ZIP includes the complete list in `収録漢字.txt`.
+The 0.400 preview includes 1,026 educational kanji, 600 additional jōyō kanji, and 23 characters added for direct input, for a total of 1,649 across all six fonts. The release ZIP includes the complete list in `収録漢字.txt`.
 
 ## Glyph selection
 
@@ -40,15 +40,15 @@ The form considered standard for a kanji can vary by typeface. Seiji’s Mincho,
 
 ### Selecting forms with ideographic variation sequences
 
-餘 (“remainder”) and 余 (a first-person pronoun) are distinct kanji that share the form 余 in modern Japanese. Seiji displays 余 as 餘 by default. To display the form 余 in an app that supports ideographic variation sequences (IVS), enter `余󠄀` (余, U+4F59, followed by variation selector U+E0100). The same selector specifies the first-person form 予 in `予󠄀`. This option covers 13 kanji in Seiji 0.300, including 余, 予, 灯, and 芸.
+餘 (“remainder”) and 余 (a first-person pronoun) are distinct kanji that share the form 余 in modern Japanese. Seiji displays 余 as 餘 by default. To display the form 余 in an app that supports ideographic variation sequences (IVS), enter `余󠄀` (余, U+4F59, followed by variation selector U+E0100). The same selector specifies the first-person form 予 in `予󠄀`. This option covers 14 kanji in Seiji 0.400, including 余, 予, 芸, and 浜.
 
 ### Selecting forms automatically from context
 
-辯, 辨, and 瓣 are distinct kanji that share the form 弁 in modern Japanese. 弁論 appears as 辯論 by default. With the OpenType `calt` feature enabled, 弁別 and 花弁 appear as 辨別 and 花瓣, respectively. The contextual rules in Seiji 0.300 cover seven kanji, including 弁, 芸, 台, and 欠.
+辯, 辨, and 瓣 are distinct kanji that share the form 弁 in modern Japanese. 弁論 appears as 辯論 by default. With the OpenType `calt` feature enabled, 弁別 and 花弁 appear as 辨別 and 花瓣, respectively. The contextual rules in Seiji 0.400 cover seven kanji, including 弁, 芸, 台, and 欠.
 
 These rules apply to the character sequences registered in the font. A line break within a sequence can prevent a rule from applying, even when the app inserts the break automatically.
 
-To get the intended forms regardless of line breaks, enter a supported kanji directly or specify the form with a supported IVS. Seiji 0.300 displays forms such as 辯, 辨, and 瓣 from 弁. The corresponding code points are outside that version’s coverage. The release ZIP lists the kanji you can enter directly in `収録漢字.txt`. [Contextual rules and IVS reference (Japanese)](docs/contextual-forms.md)
+To get the intended forms regardless of line breaks, enter a supported kanji directly or specify the form with a supported IVS. Seiji 0.400 adds 23 characters for direct input, including 辯, 辨, and 瓣. You can now enter 辯論, 辨別, and 花瓣 directly. [Direct input, contextual rules, and variation sequences (Japanese)](docs/contextual-forms.md)
 
 ## Technical documentation
 

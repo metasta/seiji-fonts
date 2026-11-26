@@ -8,9 +8,13 @@
 
 [『傳承字形部件檢校表』1.37（本文111〜113頁）](https://github.com/ichitenfont/inheritedglyphs/blob/master/component_of_recom_inherited_glyphs-1.37.pdf)
 
+## 青磁ゴシックのさんずい
+
+「海」「河」などのさんずいの三画目は、左下から右上へ跳ね上げる画です。0.400では、右上に付いていた起筆の膨らみを除きました。既収録の字ではRegular 44字、Bold 42字に反映しました。
+
 ## 書体ごとの素材
 
-素材ごとの配布元、著作権表示、SHA-256は、配布ZIPの `素材の出典.json` で確認できます。 [青磁 0.300の配布ZIP](https://github.com/metasta/seiji-fonts/releases/tag/v0.300)
+素材ごとの配布元、著作権表示、SHA-256は、配布ZIPの `素材の出典.json` で確認できます。 [青磁 0.400の配布ZIP](https://github.com/metasta/seiji-fonts/releases/tag/v0.400)
 
 | 素材 | 青磁での役割 |
 | --- | --- |
